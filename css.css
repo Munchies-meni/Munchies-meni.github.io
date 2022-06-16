@@ -21,9 +21,10 @@ header figure {
     height: auto;
 }
 main {
-    background-image: url("./slike/feslija_prozirni.png");
-    background-repeat: no-repeat;
+    background-image: url("./slike/pozadinaNew.jpg");
+    background-repeat: repeat;
     background-attachment: fixed;
+    background-size: contain;
     background-position: center; 
 }
 #galerija {
