@@ -20,13 +20,6 @@ header figure {
     max-width: 400px;
     height: auto;
 }
-main {
-    background-image: url("./slike/pozadinaNew.jpg");
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: center; 
-}
 #galerija {
    display:grid;
    grid-template-columns:repeat(auto-fit,minmax(250px, 2fr));
