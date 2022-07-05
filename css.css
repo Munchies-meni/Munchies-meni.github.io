@@ -28,11 +28,22 @@ header figure {
 
 
 .jelo{
-    min-height: 90vh;
-    padding-bottom:4em;
+    text-align: center;
+    color: white;
+    min-height: 80vh;
+    padding-bottom:2em;
     transform: translateX(100px);
     opacity: 0;
     transition: 0.2s;
+    margin: 16px 5px;
+}
+h2{
+    font-size: 3rem;
+    padding: 1em 0em;
+}
+figcaption{
+    font-size: 1.5rem;
+    padding: 3em 1em;
 }
 
 .show{
@@ -40,10 +51,6 @@ header figure {
     opacity: 1;
 }
 
-figcaption, span, .jelo {
-    text-align: center;
-    color: white;
-}
 main img {
     width:clamp(300px, 100%, 500px);
     height: auto;
