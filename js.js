@@ -1,3 +1,4 @@
+
 let jela = document.querySelectorAll(".jelo")
 
 const observer = new IntersectionObserver( entries => {
@@ -5,7 +6,8 @@ const observer = new IntersectionObserver( entries => {
         entry.target.classList.toggle("show", entry.isIntersecting)
     })
 },{
-    threshold : 0.2
+    threshold : 0.2,
+    rootMargin: "-70px"
 })
 
 jela.forEach(jelo => {

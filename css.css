@@ -1,6 +1,7 @@
 html {
     background-color: #000;
     overflow-x: hidden;
+    font-family: 'Special Elite';
 }
 header {
     display: flex;
@@ -23,7 +24,8 @@ header figure {
 }
 #galerija {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    margin: 0px auto;    
 }
 
 
