@@ -26,6 +26,8 @@ header figure {
     display: flex;
     flex-direction: column;
     margin: 0px auto;    
+
+    overflow-x: hidden;
 }
 
 
